@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(78, 78, 78, 0.144);
+    margin: 200px 450px; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+.body{
+    text-align: center;
+    
+}
+.main{
+    background-color: white;
+    text-align: center;
+    border-radius: 7px;
+    box-shadow:5px 10px rgb(231, 230, 230);
+    padding: 20px 17px;
+    line-height: 1.5;
+    
+     
+}
+hr{
+    width: 59px;
+    margin-left: 200px;
+    background-color:purple ;
+    height: 4px;
+    margin-bottom: 30px;
+    border: none;
+}
+img{
+     border-radius: 50%; 
+    width: 20%;
+    height: 100px;
+ 
+}
+h2{
+    letter-spacing: 2px;
+}
+#job{
+    color: purple;
+  
+}
+#about1{
+color:rgb(104, 104, 104);
+
+}
+i{
+    color: purple;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+button{
+    color: purple;
+    background-color: rgb(250, 209, 250);
+    border-radius: 4px;
+    padding: 3px;
+    outline-color: rebeccapurple;
+    border: none;
+}
+#about2{
+    display: none;
+}
+@media(max-width:900px){
+   body{ margin: 100px 30px; 
+} 
+.main{
+    line-height: 2.0;
+}
+img{
+    border-radius: 50%; 
+   width: 30%;
+   height: 100px;
+
+}
+#about1{
+    display: none;
+}
+#about2{
+    display: block;
+}
+hr{
+    width:70px;
+    margin-left: 125px;
+    background-color:purple ;
+    height: 4px;
+    margin-bottom: 70px;
+    border: none;
+    margin-top: 20px;
+}
+}
